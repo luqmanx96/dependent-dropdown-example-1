@@ -42,6 +42,22 @@ def add_initial_data(apps, schema_editor):
     City.objects.create(name='Edinburgh', country=uk)
     City.objects.create(name='Cambridge', country=uk)
 
+    my = Country.objects.create(name='Malaysia')
+    City.objects.create(name='Johor', country=my)
+    City.objects.create(name='Kedah', country=my)
+    City.objects.create(name='Kelantan', country=my)
+    City.objects.create(name='Melaka', country=my)
+    City.objects.create(name='N9', country=my)
+    City.objects.create(name='Pahanh', country=my)
+    City.objects.create(name='Perak', country=my)
+    City.objects.create(name='Perlis', country=my)
+    City.objects.create(name='Pulau Pinang', country=my)
+    City.objects.create(name='Sabah', country=my)
+    City.objects.create(name='Sarawak', country=my)
+    City.objects.create(name='Selangor', country=my)
+    City.objects.create(name='Terengganu', country=my)
+    City.objects.create(name='WiP', country=my)
+
 
 class Migration(migrations.Migration):
 
