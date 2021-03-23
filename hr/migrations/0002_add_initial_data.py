@@ -48,7 +48,7 @@ def add_initial_data(apps, schema_editor):
     City.objects.create(name='Kelantan', country=my)
     City.objects.create(name='Melaka', country=my)
     City.objects.create(name='N9', country=my)
-    City.objects.create(name='Pahanh', country=my)
+    City.objects.create(name='Pahang', country=my)
     City.objects.create(name='Perak', country=my)
     City.objects.create(name='Perlis', country=my)
     City.objects.create(name='Pulau Pinang', country=my)
